@@ -39,7 +39,7 @@ defmodule Nightowl.MixProject do
   defp deps do
     [
       # Dependencies for all targets
-      {:nightowl_ui, path: "../nightowl_ui"},
+      {:nightowl_ui, path: "../ui"},
       {:nerves, "~> 1.5.0", runtime: false},
       {:shoehorn, "~> 0.6"},
       {:ring_logger, "~> 0.6"},

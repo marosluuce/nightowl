@@ -5,8 +5,8 @@
 # is restricted to this project.
 import Config
 
-import_config "../../nightowl_ui/config/config.exs"
-import_config "../../nightowl_ui/config/prod.exs"
+import_config "../../ui/config/config.exs"
+import_config "../../ui/config/prod.exs"
 
 config :nightowl_ui, NightowlUiWeb.Endpoint,
   code_reloader: false,
